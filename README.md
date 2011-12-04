@@ -2,9 +2,9 @@
 
 This is a little API that gives easy access to the github issues. I started the project because I had to move tickets from github to redmine.
 
-To make this easyer i use the RestClient library and YAML for serialization.
+The API is called using ``URI.open`` and YAML for serialization.
 
-**Note: this is currently a read-only API**
+**Note: this is currently a read-only API, also this just covers version 2 of the API**
 
 ## Installing
 
